@@ -6,7 +6,7 @@ Interests: coding, reading, basketball, photography.
 <br>
 #### A recent favorite sentence:
 <blockquote>
-<p>Some people like snow and some people like cherry blossoms</p>
+<p>Those who really wanted to leave just picked a sunny afternoon, wrapped in a coat that was most often worn, went out, and never came back.</p>
 </blockquote>
 ##### Reference for setting up a blog 
 
