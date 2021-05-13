@@ -8,6 +8,7 @@ keyword: "WuQ Blog, 博客, 个人网站, 互联网, Web,摄影"
 url: "wq133.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
+
 # Publish posts or collection documents with a future date.
 future: true
 
@@ -27,7 +28,9 @@ highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true 
+#gems: [jekyll-paginate]
+                         # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN  
 
@@ -102,6 +105,6 @@ page-mathjax: false
 friends: [
     {
         title: "xiaosi",
-        href: "https://hexo.xiaosi.world/"
+        href: "https://www.zxiaosi.cn/"
     }
 ]
