@@ -4,7 +4,7 @@ title: "随记（一）"
 subtitle: "Hello world！"
 date: 2021-03-23
 author: "Wu"
-header-img: "img/SL_1.jpg"
+header-img: /gitee.com/wqh133/blog_img/raw/master/SL_1.jpg
 catalog: true
 tags: 
  - 生活碎片

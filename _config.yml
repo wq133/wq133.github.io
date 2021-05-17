@@ -7,7 +7,7 @@ description: " 大三狗的博客1.0| WuQ的个人博客| B站：布克owo"
 keyword: "WuQ Blog, 博客, 个人网站, 互联网, Web,摄影"
 url: "wq133.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-
+encoding: "utf-8"
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -104,7 +104,7 @@ page-mathjax: false
 # Friends
 friends: [
     {
-        title: "xiaosi",
+        title: "尼古拉斯赵四",
         href: "https://www.zxiaosi.cn/"
     }
 ]
