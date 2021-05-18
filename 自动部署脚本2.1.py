@@ -28,11 +28,11 @@ def countdown(t):
         time.sleep(1)
         t -= 1
 
-
 if __name__ == '__main__':
     cmd1 = 'git pull'                       # 拉取代码
     cmd2 = 'git add .'                      # 添加文件到git
-    cmd3 = 'git commit -m "update blog"'    # 提交备注
+    cmdt = input("请输入提交代码的备注：")  # 添加键入备注的变量
+    cmd3 = 'git commit -m '+'"'+cmdt+'"'    # 提交备注
     cmd4 = 'git push -u origin master'      # 推送代码
 
     time.sleep(1)
