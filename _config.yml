@@ -9,6 +9,15 @@ url: "wq133.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 encoding: "utf-8"
 
+#评论
+gitalk:
+  client_id: b35ccf542db48f7387f9
+  client_secret: bcd6401448a6b2ce9fe81856e122b73612a7f1a3
+  owner: wq133
+  repo: wu的disqus
+  admin: wq133
+
+
 # Publish posts or collection documents with a future date.
 future: true
 
@@ -61,16 +70,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: Wu
+#disqus_username: Wu
 
 # Netease settings
 netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: 1d12824e684b0d53bef05c8be6863cdc
 
 
 
@@ -86,8 +89,9 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
-# Baidu Analytics
-#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Analytics settings
+#Baidu Analytics 
+ba_track_id: 1d12824e684b0d53bef05c8be6863cdc
 
 
 # Progressive Web Apps
