@@ -6,10 +6,9 @@ layout: default
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<!-- Post Header -->
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <!-- Post Header -->
 {% include intro-header.html type='post' %}
 
 <!-- Post Content -->
@@ -58,6 +57,15 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
+                <!-- add gitalk  -->
+				<div>
+				     {% if site.comments.gitalk %}
+				     <section class="post-footer-item comment">
+				     <div id="gitalk_container"></div>
+				     <div id="disqus_thread"></div>
+				     </section>
+				     {% endif %}
+				 </div>
 
                 {% if site.netease_comment %}
                 <!-- 网易云跟帖 评论框 start -->
@@ -174,3 +182,19 @@ layout: default
     }
 </style>
 {% endif %}
+
+{% if site.comments.gitalk %}
+  <script>
+    var gitalk = new Gitalk({
+      id: location.pathname,
+      clientID: '{{ site.comments.clientID }}',  //这里其实可以直接填值，但是考虑到页面安全性，还是通过配置的方式添加
+      clientSecret: '{{ site.comments.secret }}', 
+      repo: '{{ site.comments.repo }}', 
+      owner: '{{ site.comments.owner }}',
+      admin: '{{ site.comments.admin }}',
+      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'
+    })
+
+    gitalk.render('disqus_thread')
+  </script>
+  {% endif %}

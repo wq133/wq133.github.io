@@ -9,14 +9,17 @@ url: "wq133.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 encoding: "utf-8"
 
-#评论
-gitalk:
-  client_id: b35ccf542db48f7387f9
-  client_secret: bcd6401448a6b2ce9fe81856e122b73612a7f1a3
-  owner: wq133
-  repo: wu的disqus
-  admin: wq133
 
+
+#gitalk
+comments:
+  gitalk: true
+  clientID: b35ccf542db48f7387f9
+  secret: 46368790aa221900c7f50d946887fbb447b3cdb8
+  repo: blog-comments  # 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
+  owner: wq133
+  admin: wq133
+  distractionFreeMode: true #输入评论内容时，全屏除了输入框，其他位置被屏蔽
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -73,7 +76,7 @@ kramdown:
 #disqus_username: Wu
 
 # Netease settings
-netease_comment: false
+# netease_comment: false
 
 
 
