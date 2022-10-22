@@ -1,0 +1,11 @@
+{
+  "name": "WuQ Blog",
+  "short_name": "WuQ Blog",
+  "description": "关于一个敲代码敲得一般的人是博客.",
+
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

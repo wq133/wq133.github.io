@@ -1,0 +1,117 @@
+# Site settings
+title: WuQ Blog
+SEOTitle: 吴Q的博客 | WuQ Blog
+header-img: img/home_2.jpg
+email: wqh666@vip.qq.com
+description: " 大三狗的博客1.0| WuQ的个人博客| B站：布克owo"
+keyword: "WuQ Blog, 博客, 个人网站, 互联网, Web,摄影"
+url: "wq133.github.io/"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+encoding: "utf-8"
+
+
+#gitalk
+comments:
+  gitalk: true
+  clientID: b35ccf542db48f7387f9
+  secret: 46368790aa221900c7f50d946887fbb447b3cdb8
+  repo: blog-comments  # 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
+  owner: wq133
+  admin: wq133
+  distractionFreeMode: true #输入评论内容时，全屏除了输入框，其他位置被屏蔽
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false
+weibo_username:     u/5401139348
+zhihu_username:     liu-chi-de-li-hua
+github_username:    wq133
+#facebook_username:  huxpro
+#linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true 
+#gems: [jekyll-paginate]
+                         # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+collections:
+protected:
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+#disqus_username: Wu
+
+# Netease settings
+# netease_comment: false
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "一个敲代码的"
+sidebar-avatar: /img/img_tx_2.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+# Analytics settings
+#Baidu Analytics 
+ba_track_id: 1d12824e684b0d53bef05c8be6863cdc
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+        title: "尼古拉斯赵四",
+        href: "https://www.zxiaosi.cn/"
+    }
+]
