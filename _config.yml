@@ -1,10 +1,10 @@
 # Site settings
 title: WuQ Blog
-SEOTitle: 吴Q的博客 | WuQ Blog
+SEOTitle: NeilWu's blog | NeilWu Blog
 header-img: img/home_2.jpg
 email: wqh666@vip.qq.com
-description: " 大三狗的博客1.0| WuQ的个人博客| B站：布克owo"
-keyword: "WuQ Blog, 博客, 个人网站, 互联网, Web,摄影"
+description: "进击的Java开发狗的博客1.1 | NeilWu的个人博客 | B站：布克owo "
+keyword: "NeilWu, 博客, 个人网站, 互联网, Web,摄影"
 url: "wq133.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 encoding: "utf-8"
@@ -39,7 +39,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true 
+anchorjs: true
 #gems: [jekyll-paginate]
                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
@@ -112,6 +112,10 @@ page-mathjax: false
 friends: [
     {
         title: "尼古拉斯赵四",
-        href: "https://www.zxiaosi.cn/"
+        href: "https://zxiaosi.com/"
+    },
+    {
+        title: "写进族谱的haotian",
+        href: "https://haotian.lv/"
     }
 ]
