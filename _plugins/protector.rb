@@ -90,7 +90,7 @@ module Jekyll
 
             protected_pages_names = []
 
-            site.collections['protected'].docs.each do |plain_page|
+            site.collections.dir.docs.each do |plain_page|
                 protected_page_path = File.join(dir, plain_page.basename_without_ext)
 
                 protected_page = ProtectedPage.new(site, site.source, protected_page_path, plain_page)
