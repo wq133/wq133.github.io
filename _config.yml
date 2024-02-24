@@ -36,7 +36,7 @@ github_username:    wq133
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
-permalink: pretty
+permalink: /posts:year-:month-:day-:title.html
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true
