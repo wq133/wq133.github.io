@@ -4,7 +4,7 @@ title: "Nginx在Docker中的使用"
 subtitle: "了解Nginx和使用Docker部署"
 date: 2022-05-20
 author: "Wu"
-header-img: /gitee.com/wqh133/blog_img/raw/master/SL_1.jpg
+header-img: /article_img/SL_1.jpg
 catalog: true
 tags: 
  - Nginx
