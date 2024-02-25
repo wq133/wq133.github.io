@@ -15,7 +15,7 @@ comments:
   gitalk: true
   clientID: b35ccf542db48f7387f9
   secret: 46368790aa221900c7f50d946887fbb447b3cdb8
-  repo: blog-comments  # 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
+  repo: blog-talk  # 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
   owner: wq133
   admin: wq133
   distractionFreeMode: true #输入评论内容时，全屏除了输入框，其他位置被屏蔽
