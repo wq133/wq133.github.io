@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Nginx在Docker中的使用"
-subtitle: "了解Nginx和使用Docker部署"
-date: 2022-05-20
-author: "Wu"
-header-img: "../article_img/SL_1.jpg"
+title: Nginx在Docker中的使用
+subtitle: 了解Nginx和使用Docker部署
+date: 2022-05-10
+author: Wu
+header-img: ../article_img/SL_1.jpg
 catalog: true
-tags: 
- - Nginx
- - Docker
+tags:
+  - Nginx
+  - Docker
 ---
 
 ## Nginx 在Docker的部署
