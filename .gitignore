@@ -1,9 +1,12 @@
 _site
 _posts/_draft
 _posts/_archive
+_posts/_Java
+_posts/_other
 _archive
 node_modules
 .vscode
+*.obsidian
 *.log
 *.lock
 *.sh
