@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b04de086e1bbe4f0",
+        "id": "6b44470c2d3f2770",
         "type": "tabs",
         "children": [
           {
-            "id": "fa51122a185a0c4a",
+            "id": "3356122f34920352",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-05-15-jekyll博客部署云服务器的流程.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-05-15-jekyll博客部署云服务器的流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-05-15-jekyll博客部署云服务器的流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2023-05-15-jekyll博客部署云服务器的流程.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,26 +138,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fa51122a185a0c4a",
+  "active": "3356122f34920352",
   "lastOpenFiles": [
-    "SampleDeploy-mac.command",
     "SampleDeploy-win.py",
-    "SampleDeploy_副本.command",
-    "SampleDeploy.command",
+    "SampleDeploy-mac.command",
     "_posts/2022-05-10-Nginx在Docker中的部署.md",
-    "_posts/2023-05-15-jekyll博客部署云服务器的流程.md",
-    "_posts/2024-01-20-Java基础知识 1.md",
     "_posts/2021-03-21-随记（一）.md",
+    "_posts/2021-03-24-关于github访问失败.md",
+    "_posts/_Java/1-Java基础-JVM.md",
+    "自动部署脚本2.1.py",
+    "_posts/杂/Lda算法依赖download.md",
+    "_posts/杂/Conda操作教程.md",
+    "_posts/杂",
+    "_posts/Java面试准备/Linux.md",
+    "_posts/Java面试准备/3-Linux、Docker.md",
+    "_posts/Java面试准备/2-分布式.md",
+    "_posts/Java面试准备/1-Redis.md",
+    "_posts/Java面试准备/1-Mysql.md",
+    "_posts/Java面试准备/1-MQ.md",
+    "_posts/Java面试准备/1-Java框架部分.md",
+    "_posts/Java面试准备/1-Java基础-集合.md",
     "_posts/Java面试准备/1-Java基础-并发编程.md",
-    "_posts/Java面试准备/0-常用设计模式.md",
-    "_posts/2021-05-17-随记（三）.md",
-    "_posts/2023-05-20-test钩子函数.md",
-    "_posts/2021-03-31-博客搭建[上].md",
-    "article_img/堆内存结构图.png",
     "_posts/Java面试准备/1-Java基础-JVM.md",
     "_posts/Java面试准备/1-Java基础-IO流.md",
+    "_posts/Java面试准备/0-常用设计模式.md",
+    "_posts/Java面试准备/0-实际场景问题.md",
+    "_posts/Java面试准备",
+    "2024-0228gitIgnore.patch",
     "article_img/JVM内存模型图JDK1.7.png",
-    "_posts/Java面试准备/1-Java基础-集合.md",
-    "_posts/2021-03-24-关于github访问失败.md"
+    "_posts/_Java/1-Java基础-集合.md",
+    "_posts/_Java/1-Java基础-并发编程.md",
+    "_posts/_Java/0-常用设计模式.md",
+    "_posts/2023-05-15-jekyll博客部署云服务器的流程.md",
+    "_posts/_other/Lda算法依赖download.md",
+    "_posts/_other/Conda操作教程.md",
+    "_posts/_other",
+    "_posts/未命名文件夹",
+    "_posts/_Java",
+    "SampleDeploy_副本.command",
+    "article_img/堆内存结构图.png"
   ]
 }
