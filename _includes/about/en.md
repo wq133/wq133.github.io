@@ -1,9 +1,4 @@
-Hi, this is a blog of an ordinary person. There are not many stories. It has been living in a hurry for almost 21 years. 
-<br>
-Daily route: dormitory, teaching building, library.
-<br>
-Interests: coding, reading, basketball, photography.
-<br>
+Record technical documentation and duplicate summaries.
 #### A recent favorite sentence:
 <blockquote>
 <p>Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer." Romain Rolland.</p>
