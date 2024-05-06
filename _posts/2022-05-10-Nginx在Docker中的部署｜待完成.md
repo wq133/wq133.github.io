@@ -155,3 +155,7 @@ docker: Error response from daemon: OCI runtime create failed: container_linux.g
 动态性和扩展性：
 - Nginx： 配置变更需要重新加载 Nginx 服务器，不够动态。扩展性较好，但需要编写 C 语言模块或使用 Lua 扩展。
 - Spring Cloud Gateway： 可以通过 Spring Cloud Config 实现动态配置更新，支持动态路由。通过编写自定义过滤器，可以实现更灵活的扩展。
+
+
+
+
