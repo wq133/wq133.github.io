@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "e16f457e09e7fa93",
+    "type": "split",
+    "children": [
+      {
+        "id": "a593b605947bb3a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "629d046e12c03cdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-01-25-框架部分.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eedf18860f3b1320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-01-18-面试准备.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5532a7dfa458217",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/_Java/3-Linux、Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f539581cf44b1e78",
+    "type": "split",
+    "children": [
+      {
+        "id": "b580ffe818ad9b04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28ea537a6065d904",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "add7a4371615a695",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33dbf53687b2b2cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "right": {
+    "id": "711a3ebdcc122185",
+    "type": "split",
+    "children": [
+      {
+        "id": "926e3d6945ba0e5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bb4d9fa91396c32",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/_Java/3-Linux、Docker.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30cf15b0d98d8997",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/_Java/3-Linux、Docker.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2132b0317b622da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c3071c0ccba2c876",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/_Java/3-Linux、Docker.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-regex-pipeline:Regex Rulesets": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "b5532a7dfa458217",
+  "lastOpenFiles": [
+    "_posts/_Java/XXLJob.md",
+    "_posts/0-常用设计模式.md",
+    "_posts/_Java/3-Linux、Docker.md",
+    "_posts/_Java/2021-05-12-随记（二）.md",
+    "_posts/_Java/2023-06-09-SpringBoot-实现一个日志注解.md",
+    "_posts/_Java/2024-02-29-实际场景问题-TODO.md",
+    "_posts/_Java/2024-02-29-分布式总结（一）｜待完成.md",
+    "_posts/2022-05-10-Nginx在Docker中的部署｜待完成.md",
+    "_posts/2024-01-18-面试准备.md",
+    "_posts/2024-02-01-消息队列总结（一）— RocketMQ.md",
+    "_posts/2024-01-27-Redis总结.md",
+    "_posts/2024-01-26-Mysql总结.md",
+    "_posts/2024-01-25-框架部分.md",
+    "_posts/2024-01-22-Java基础-并发编程_TODO.md",
+    "_posts/2024-01-23-Java基础-IO流.md",
+    "_posts/2024-01-21-Java基础-集合.md",
+    "_posts/2024-01-20-Java基础知识.md",
+    "_posts/2024-01-24-Java基础-JVM.md",
+    "_posts/2021-03-24-关于github访问失败.md",
+    "_posts/2021-03-21-随记（一）.md",
+    "article_img/20240422000112.png",
+    "article_img/Pasted image 20240422000107.png",
+    "_posts/2023-06-02-jekyll博客部署云服务器的流程.md",
+    "_posts/2021-03-31-博客搭建[上].md",
+    "article_img/Markclearingalgorithm_1.png",
+    "article_img/Markclearingalgorithm.png",
+    "article_img/DynamicLinkPrincipleDiagram.png",
+    "_posts/_Java/实际开发问题（一）.md",
+    "_posts/_Java/参考.md",
+    "_posts/_Java/2024-03-01-分布式总结（二）_待完成.md",
+    "_posts/_Java/2024-02-20-基础算法_待完成.md",
+    "article_img/threadPoolRunFlow20240406180130.png",
+    "article_img/24030309主键和单列索引示意图.png",
+    "article_img/20240301MysqFrameWork.png",
+    "article_img/Pasted image 20240329142809.png",
+    "article_img/Pasted image 20240329142018.png",
+    "CNAME",
+    "other_file/cache-starter-2.2.7-SNAPSHOT.jar",
+    "other_file",
+    "未命名文件夹",
+    "cache-starter-2.2.7-SNAPSHOT.jar",
+    "未命名",
+    "未命名.canvas"
+  ]
+}

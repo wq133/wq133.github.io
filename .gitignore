@@ -7,8 +7,7 @@ _posts/_other
 _archive
 node_modules
 .vscode
-.obsidian
-*/*/.obsidian
+
 *.log
 *.lock
 *.sh

@@ -1,0 +1,11 @@
+{
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_posts/_Java",
+  "attachmentFolderPath": "article_img",
+  "livePreview": true,
+  "defaultViewMode": "preview"
+}
