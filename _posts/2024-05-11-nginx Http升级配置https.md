@@ -217,7 +217,6 @@ http {
 
     include /etc/nginx/conf.d/default.conf;
 }
-
 ```
 
 `include /etc/nginx/conf.d/default.conf `这里就包含了default.conf中配置的ssl证书及其相关配置。
@@ -234,10 +233,10 @@ http {
 ## 6.配置 Let'sEncrypt 证书自动续约-TODO-0809
 
 ## 参考文章
-[全站HTTPS升级系列（三）nginx配置全站HTTPS](https://juejin.cn/post/6844903759764520973?searchId=202405091655379A652FE83C772D955502)
-[Nginx 如何配置 Https？](https://www.zhihu.com/question/585631463/answer/3333804746) - 温水煮蛙的回答 - 知乎 
-[让网站更安全：使用 Let's Encrypt 轻松获得免费 SSL 证书并自动续签](https://zhuanlan.zhihu.com/p/648603442)
-[Nginx 配置 https （Let's Encrypt）](https://juejin.cn/user/3650034333125335/posts)
-[Let's Encrypt 自动化续签](https://blog.csdn.net/qq_40579464/article/details/131117495)
-[一文搞懂Nginx代理及基础高级配置及跨域(含websocket、http2)](https://juejin.cn/user/4125023358954526/posts)
+1. [全站HTTPS升级系列（三）nginx配置全站HTTPS](https://juejin.cn/post/6844903759764520973?searchId=202405091655379A652FE83C772D955502)
+2. [Nginx 如何配置 Https？](https://www.zhihu.com/question/585631463/answer/3333804746) - 温水煮蛙的回答 - 知乎 
+3. [让网站更安全：使用 Let's Encrypt 轻松获得免费 SSL 证书并自动续签](https://zhuanlan.zhihu.com/p/648603442)
+4. [Nginx 配置 https （Let's Encrypt）](https://juejin.cn/user/3650034333125335/posts)
+5. [Let's Encrypt 自动化续签](https://blog.csdn.net/qq_40579464/article/details/131117495)
+6. [一文搞懂Nginx代理及基础高级配置及跨域(含websocket、http2)](https://juejin.cn/user/4125023358954526/posts)
 
