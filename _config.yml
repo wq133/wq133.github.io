@@ -13,8 +13,8 @@ encoding: "utf-8"
 #gitalk
 comments:
   gitalk: true
-  clientID: b35ccf542db48f7387f9
-  secret: 46368790aa221900c7f50d946887fbb447b3cdb8
+  clientID: Ov23liuPVqOOkVJ30QRT # 66号dr的disqus
+  secret: 86344a59e70a4bc9a90a9926dfc9b3f3aff07816 # old: 46368790aa221900c7f50d946887fbb447b3cdb8
   repo: blog-talk  # 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
   owner: wq133
   admin: wq133
