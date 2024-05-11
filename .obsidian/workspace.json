@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "629d046e12c03cdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-01-25-框架部分.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eedf18860f3b1320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-01-18-面试准备.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5532a7dfa458217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-05-08-随记（四）.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "d1cf244951f58006",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/_Java/2024-03-01-分布式总结（二）_待完成.md",
+                "file": "_posts/2024-05-11-nginx Http升级配置https.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-08-随记（四）.md",
+                "file": "_posts/2024-05-11-nginx Http升级配置https.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-08-随记（四）.md",
+                "file": "_posts/2024-05-11-nginx Http升级配置https.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-08-随记（四）.md"
+                "file": "_posts/2024-05-11-nginx Http升级配置https.md"
               }
             }
           }
@@ -171,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,12 +147,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b5532a7dfa458217",
+  "active": "28ea537a6065d904",
   "lastOpenFiles": [
-    "_posts/2021-03-21-随记（一）.md",
-    "_posts/_Java/2024-03-01-分布式总结（二）_待完成.md",
+    "_posts/2023-06-02-jekyll博客部署云服务器的流程.md",
+    "_posts/2024-05-11-nginx Http升级配置https.md",
+    "_posts/2024-05-10-关于idea2019重复输密码pull失败问题.md",
+    "article_img/20240511htpp443conf.png",
+    "_posts/2022-05-10-Nginx在Docker中的部署｜待完成.md",
     "_posts/2024-05-08-随记（四）.md",
     "_posts/2024-02-01-消息队列总结（一）— RocketMQ.md",
+    "_posts/2024-01-27-Redis总结.md",
+    "_posts/2024-01-25-框架部分.md",
+    "_posts/2024-01-23-Java基础-IO流.md",
+    "_posts/2024-01-24-Java基础-JVM.md",
+    "_posts/2024-01-26-Mysql总结.md",
+    "_posts/2024-01-01-Java开发环境配置.md",
+    "_posts/2024-01-18-面试准备.md",
+    "_posts/2021-03-31-博客搭建[上].md",
+    "_posts/2024-01-20-Java基础知识.md",
+    "_posts/2023-12-15-Mac本地文档兼容Jekyll服务端博客.md",
+    "article_img/Pasted image 20240511103557.png",
+    "article_img/Pasted image 20240511100506.png",
+    "_posts/2021-03-21-随记（一）.md",
+    "_posts/_Java/2024-03-01-分布式总结（二）_待完成.md",
     "_posts/_Java/2024-02-20-基础算法_待完成.md",
     "_posts/_Java/2024-02-25-计算机网络_待完成.md",
     "_posts/_other/2021-05-17-随记（三）.md",
@@ -197,31 +177,13 @@
     "_posts/_Java/3-Linux、Docker.md",
     "_posts/_Java/XXLJob.md",
     "_posts/0-常用设计模式.md",
-    "_posts/_Java/2023-06-09-SpringBoot-实现一个日志注解.md",
-    "_posts/_Java/2024-02-29-实际场景问题-TODO.md",
-    "_posts/_Java/2024-02-29-分布式总结（一）｜待完成.md",
-    "_posts/2022-05-10-Nginx在Docker中的部署｜待完成.md",
-    "_posts/2024-01-18-面试准备.md",
-    "_posts/2024-01-27-Redis总结.md",
-    "_posts/2024-01-26-Mysql总结.md",
-    "_posts/2024-01-25-框架部分.md",
-    "_posts/2024-01-22-Java基础-并发编程_TODO.md",
-    "_posts/2024-01-23-Java基础-IO流.md",
-    "_posts/2024-01-21-Java基础-集合.md",
-    "_posts/2024-01-20-Java基础知识.md",
-    "_posts/2024-01-24-Java基础-JVM.md",
-    "_posts/2021-03-24-关于github访问失败.md",
     "article_img/20240422000112.png",
     "article_img/Pasted image 20240422000107.png",
-    "_posts/2023-06-02-jekyll博客部署云服务器的流程.md",
     "article_img/Markclearingalgorithm_1.png",
     "article_img/Markclearingalgorithm.png",
     "article_img/DynamicLinkPrincipleDiagram.png",
     "article_img/threadPoolRunFlow20240406180130.png",
     "article_img/24030309主键和单列索引示意图.png",
-    "article_img/20240301MysqFrameWork.png",
-    "article_img/Pasted image 20240329142809.png",
-    "article_img/Pasted image 20240329142018.png",
     "CNAME",
     "other_file/cache-starter-2.2.7-SNAPSHOT.jar",
     "other_file",
