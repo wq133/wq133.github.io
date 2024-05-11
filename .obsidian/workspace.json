@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a593b605947bb3a3",
+        "id": "e5cd2780e0fb34a1",
         "type": "tabs",
         "children": [
           {
-            "id": "d1cf244951f58006",
+            "id": "07b43c21cc1459cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-11-nginx Http升级配置https.md",
+                "file": "_posts/2024-01-21-Java基础-集合.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-11-nginx Http升级配置https.md",
+                "file": "_posts/2024-01-21-Java基础-集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-11-nginx Http升级配置https.md",
+                "file": "_posts/2024-01-21-Java基础-集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-11-nginx Http升级配置https.md"
+                "file": "_posts/2024-01-21-Java基础-集合.md"
               }
             }
           }
@@ -147,25 +147,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "28ea537a6065d904",
+  "active": "07b43c21cc1459cd",
   "lastOpenFiles": [
-    "_posts/2023-06-02-jekyll博客部署云服务器的流程.md",
-    "_posts/2024-05-11-nginx Http升级配置https.md",
-    "_posts/2024-05-10-关于idea2019重复输密码pull失败问题.md",
-    "article_img/20240511htpp443conf.png",
+    "_posts/2024-01-18-面试准备.md",
+    "_posts/2024-01-20-Java基础知识.md",
+    "_posts/2024-01-21-Java基础-集合.md",
+    "_posts/2024-01-23-Java基础-IO流.md",
+    "_posts/2024-01-22-Java基础-并发编程.md",
     "_posts/2022-05-10-Nginx在Docker中的部署｜待完成.md",
-    "_posts/2024-05-08-随记（四）.md",
+    "_posts/2023-12-15-Mac本地文档兼容Jekyll服务端博客.md",
+    "_posts/2024-05-10-关于idea2019重复输密码pull失败问题.md",
+    "_posts/2024-05-11-nginx Http升级配置https.md",
     "_posts/2024-02-01-消息队列总结（一）— RocketMQ.md",
+    "_posts/2024-05-08-随记（四）.md",
+    "_posts/2023-06-02-jekyll博客部署云服务器的流程.md",
+    "article_img/20240511htpp443conf.png",
     "_posts/2024-01-27-Redis总结.md",
     "_posts/2024-01-25-框架部分.md",
-    "_posts/2024-01-23-Java基础-IO流.md",
     "_posts/2024-01-24-Java基础-JVM.md",
     "_posts/2024-01-26-Mysql总结.md",
     "_posts/2024-01-01-Java开发环境配置.md",
-    "_posts/2024-01-18-面试准备.md",
     "_posts/2021-03-31-博客搭建[上].md",
-    "_posts/2024-01-20-Java基础知识.md",
-    "_posts/2023-12-15-Mac本地文档兼容Jekyll服务端博客.md",
     "article_img/Pasted image 20240511103557.png",
     "article_img/Pasted image 20240511100506.png",
     "_posts/2021-03-21-随记（一）.md",
@@ -176,7 +178,6 @@
     "_posts/_other/2021-05-12-随记（二）.md",
     "_posts/_Java/3-Linux、Docker.md",
     "_posts/_Java/XXLJob.md",
-    "_posts/0-常用设计模式.md",
     "article_img/20240422000112.png",
     "article_img/Pasted image 20240422000107.png",
     "article_img/Markclearingalgorithm_1.png",
