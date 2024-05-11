@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 关于idea重复输入密码授权失败问题
-subtitle: 解决方案记录
-date: 2024-05-10
+title: nginx Http升级配置https
+subtitle: 方案、问题踩坑
+date: 2024-05-11
 author: Wu
 header-img: ../article_img/SL_1.jpg
 tags:
