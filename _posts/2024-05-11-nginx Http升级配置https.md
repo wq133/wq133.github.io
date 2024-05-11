@@ -26,9 +26,10 @@ yum -y install openssl openssl-devel
 ```
 cp source_file destination_file
 ```
-## 3.证书准备-申请免费证书
+## 3.证书准备
 
-1. 开放端口：80和443端口
+### 开放端口
+80和443端口
 
 ```shell
 systemctl status firewalld.service
@@ -41,7 +42,7 @@ firewall-cmd --reload
 systemctl stop firewalld.service
 ```
 
-2. 安装 certbot  
+### 安装 certbot  
 使用certbot工具能够很方便的申请和续签let’s encript证书。
 
 ```
@@ -49,7 +50,7 @@ yum install -y epel-release
 yum install -y certbot
 ```
 
-3. 执行cerbot命令
+### 执行cerbot命令
 
 >  certbot certonly --webroot -w [Web站点目录] -d [站点域名] -m [联系人email地址] --agree-tos
 
@@ -62,7 +63,7 @@ yum install -y certbot
 
 执行3的命令后，y确认。
 
-4. 查看证书位置
+### 查看证书位置
 
 ```shell
 IMPORTANT NOTES:
@@ -77,17 +78,16 @@ IMPORTANT NOTES:
  - If you like Certbot, please consider supporting our work by:
 
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
-
 ```
 
 /etc/letsencrypt/live/{域名}就是存放当前域名网站证书的路径。
 
-5. 查看证书有效期
+### 查看证书有效期
 `openssl x509 -noout -dates -in /etc/letsencrypt/live/{域名}/cert.pem`
 ![](../../article_img/Pasted%20image%2020240511103557.png)
 
 ## 4.配置Nginx配置文件
-原有配置：
+### 原有配置：
 ```
 server {
     listen       80;
@@ -114,7 +114,7 @@ server {
 }
 ```
 
-新增配置到server下：
+### 新增配置到server下：
 ```
 # 配置ssl证书
 ssl_certificate /etc/letsencrypt/live/66dr.cn/fullchain.pem;
@@ -140,7 +140,7 @@ add_header Strict-Transport-Security "max-age=31536000";
 
 ```
 
-配置完之后实际是：
+### 配置完之后实际是：
 ```
 server {
         listen 80;
