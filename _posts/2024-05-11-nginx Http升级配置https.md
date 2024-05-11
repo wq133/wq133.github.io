@@ -28,8 +28,8 @@ cp source_file destination_file
 ```
 ## 3.证书准备-申请免费证书
 
-1. 开放端口：
-> 80和443端口
+1. 开放端口：80和443端口
+
 ```shell
 systemctl status firewalld.service
 systemctl start firewalld.service
@@ -59,10 +59,12 @@ yum install -y certbot
 
 实际我的配置：
 `certbot certonly --webroot -w /var/wq133.github.io/_site -d 66dr.cn -m wqh666@vip.qq.com --agree-tos`
-4. 查看证书位置
+
 执行3的命令后，y确认。
 
-```
+4. 查看证书位置
+
+```shell
 IMPORTANT NOTES:
  - Congratulations! Your certificate and chain have been saved at:
    /etc/letsencrypt/live/66dr.cn/fullchain.pem
@@ -77,6 +79,7 @@ IMPORTANT NOTES:
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
 
 ```
+
 /etc/letsencrypt/live/{域名}就是存放当前域名网站证书的路径。
 
 5. 查看证书有效期
@@ -136,6 +139,7 @@ ssl_session_timeout 10m;
 add_header Strict-Transport-Security "max-age=31536000";
 
 ```
+
 配置完之后实际是：
 ```
 server {
@@ -178,6 +182,7 @@ server {
         }
     }
 ```
+
 因为我的Nginx实际启动conf文件是去载入这个default.conf文件的，所以这里默认启动的conf文件如下：
 ```
 
@@ -214,11 +219,14 @@ http {
 }
 
 ```
+
 `include /etc/nginx/conf.d/default.conf `这里就包含了default.conf中配置的ssl证书及其相关配置。
+
 ## 5.重启nginx
 
 我这里默认用systemctl 的方式启动。所以执行
 > systemctl status nginx.service
+
 > systemctl restart nginx.service
 
 实际上到这里基本完成技术上的配置，由于云服务器的端口是需要在管理端口手动开启，这里我实际测试以https的方式访问博客还是失败。所以再到这个路径开启443端口即可。（阿里云为例子：实例->云服务器 ECS->网络与安全->安全组中，入方向手动添加按钮，添加即可）
