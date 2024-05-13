@@ -191,8 +191,9 @@ layout: default
   <script>
     // 测试打印pathName
     var path = location.pathname;
-    var firstTenChars = path.substring(0, 10);
-    console.log(firstTenChars);
+    var titleSubstringChars = path.substring(0, 11);
+    console.log(titleSubstringChars);
+
     var gitalk = new Gitalk({
       id: location.pathname,
       clientID: '{{ site.comments.clientID }}',  //这里其实可以直接填值，但是考虑到页面安全性，还是通过配置的方式添加
@@ -200,7 +201,8 @@ layout: default
       repo: '{{ site.comments.repo }}', 
       owner: '{{ site.comments.owner }}',
       admin: '{{ site.comments.admin }}',
-      id: md5(firstTenChars),
+      // id: md5(titleSubstringChars),
+      id: titleSubstringChars,
       distractionFreeMode: '{{ site.comments.distractionFreeMode }}'
     })
 
