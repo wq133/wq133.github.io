@@ -3,7 +3,7 @@ title: 宝石代码篆
 SEOTitle: 宝石代码篆|记录技术和生活
 header-img: img/home_2.jpg
 email: wqh666@vip.qq.com
-description: "在快速发展的社会下，身为程序员的我感觉到压力，我决定开始写一些技术文章和生活分享的文章来缓解压力，同时让我自己保持进步，积极进取，为国家发展添一份力。—— B站：布克owo "
+description: "分享技术文章和生活"
 keyword: "宝石代码篆, 互联网, Web, 摄影"
 url: "wq133.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -114,11 +114,11 @@ page-mathjax: false
 # Friends
 friends: [
     {
-        title: "尼古拉斯赵四",
+        title: "赵四",
         href: "https://zxiaosi.com/"
     },
     {
-        title: "写进族谱的haotian",
+        title: "haotian",
         href: "https://haotian.lv/"
     }
 ]
