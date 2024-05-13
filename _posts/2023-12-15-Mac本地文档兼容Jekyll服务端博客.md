@@ -10,6 +10,7 @@ tags:
   - 博客
   - Jekyll
   - Obsidian
+  - config
 ---
 
 ## 1.文件夹结构

@@ -8,6 +8,7 @@ header-img: ../article_img/SL_1.jpg
 tags:
   - Nginx
   - Https
+  - config
 ---
 ## 1.安装openssl模块
 

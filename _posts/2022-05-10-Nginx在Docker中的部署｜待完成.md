@@ -9,6 +9,7 @@ catalog: true
 tags:
   - Nginx
   - Docker
+  - config
 ---
 
 ## Nginx 在Docker的部署
