@@ -58,6 +58,6 @@ owner: '{{ site.comments.owner }}',
 ```
 
 ## 参考链接
-[gittalk官方文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)
-[gittalk的使用](https://www.zhwangart.com/2018/12/06/Gitalk/#%E6%8A%A5%E9%94%99%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
+1. [gittalk官方文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)
+2. [gittalk的使用](https://www.zhwangart.com/2018/12/06/Gitalk/#%E6%8A%A5%E9%94%99%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
 
