@@ -8,7 +8,7 @@ _posts/_other
 _archive
 node_modules
 .vscode
-*/*/workspce.json
+.obsidian/workspce.json
 
 *.log
 *.lock
