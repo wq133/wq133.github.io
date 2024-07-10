@@ -912,6 +912,7 @@ concat REGEXP 正则匹配
 ```
 concat( ',', {0}, ',' ) REGEXP concat( ',(', REPLACE ( t1.use_dept_id, ',', '|' ), '),' )
 ```
+GROUP_CONECT()|TODO
 
 ## 参考链接
 [技术摘抄](http://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/MySQL%E5%AE%9E%E6%88%9845%E8%AE%B2)

@@ -821,7 +821,11 @@ JDK 提供的这些容器大部分在 `java.util.concurrent` 包中。
 
 ## Atmoic原子类｜ TODO
 
-## ThreadLocal｜ TODO
+
+
+
+
+## ThreadLocal｜TODO
 
 #### 定义
 每个线程自己的局部变量，是每个线程都有单独的线程变量。
@@ -829,14 +833,90 @@ JDK 提供的这些容器大部分在 `java.util.concurrent` 包中。
 - 既然每个 Thread 有自己的实例副本，且其它 Thread 不可访问，那就不存在多线程间共享的问题。
 
 #### 场景：
-1、需要每个线程有单独的实例
-2、实例需要在多个方法中共享，但不希望被多线程共享
+1、需要每个线程有单独的实例｜Saas系统的多租户
+2、实例需要在多个方法中共享，但不希望被多线程共享｜拦截器中获取的用户信息，数据跨层传递（controller,service, dao）
 
-#### demo
+
+#### demo ｜TODO
+
+```java
+	// session存储
+
+private static final ThreadLocal threadSession = new ThreadLocal();
+ 
+    public static Session getSession() throws InfrastructureException {
+        Session s = (Session) threadSession.get();
+        try {
+            if (s == null) {
+                s = getSessionFactory().openSession();
+                threadSession.set(s);
+            }
+        } catch (HibernateException ex) {
+            throw new InfrastructureException(ex);
+        }
+        return s;
+    }
+
+```
+
+```java
+//数据传递
+package com.kong.threadlocal;
+ 
+public class ThreadLocalDemo05 {
+    public static void main(String[] args) {
+        User user = new User("jack");
+        new Service1().service1(user);
+    }
+ 
+}
+ 
+class Service1 {
+    public void service1(User user){
+        //给ThreadLocal赋值，后续的服务直接通过ThreadLocal获取就行了。
+        UserContextHolder.holder.set(user);
+        new Service2().service2();
+    }
+}
+ 
+class Service2 {
+    public void service2(){
+        User user = UserContextHolder.holder.get();
+        System.out.println("service2拿到的用户:"+user.name);
+        new Service3().service3();
+    }
+}
+ 
+class Service3 {
+    public void service3(){
+        User user = UserContextHolder.holder.get();
+        System.out.println("service3拿到的用户:"+user.name);
+        //在整个流程执行完毕后，一定要执行remove
+        UserContextHolder.holder.remove();
+    }
+}
+ 
+class UserContextHolder {
+    //创建ThreadLocal保存User对象
+    public static ThreadLocal<User> holder = new ThreadLocal<>();
+}
+ 
+class User {
+    String name;
+    public User(String name){
+        this.name = name;
+    }
+}
+ 
+// 执行的结果：
+// service2拿到的用户:jack
+// service3拿到的用户:jack
+```
 
 #### ThreadLocal与Synchronized的区别
 
-
+1、ThreadLocal是线程间的数据隔离，Synchronized是用于线程间的数据共享。
+2、ThreadLocal是利用Thread中单独的实例，Synchronized是利用锁的机制，使变量或代码块在某一时该只能被一个线程访问。ThreadLocal为每一个线程都提供了变量的副本，使得每个线程在某一时间访问到的并不是同一个对象，这样就隔离了多个线程对数据的数据共享。Synchronized正好相反，它用于在多个线程间通信时能够获得数据共享。
 
 
 ## CompletableFeature异步编程｜ TODO
@@ -891,7 +971,14 @@ public class CompletableFuture<T> implements Future<T>, CompletionStage<T> {
 
 `CompletionStage` 接口中的方法比较多，`CompletableFuture` 的函数式能力就是这个接口赋予的。从这个接口的方法参数你就可以发现其大量使用了 Java8 引入的函数式编程。
 
-### CompletableFuture 常见操作
+### CompletableFuture 常见操作｜TODO
+
+
+### CompletableFuture 实际使用｜TODO
+
+
+
+
 
 
 
@@ -899,7 +986,6 @@ public class CompletableFuture<T> implements Future<T>, CompletionStage<T> {
 
 
 参考文章
-https://blog.csdn.net/u010445301/article/details/111322569
-https://blog.csdn.net/u010445301/article/details/124935802?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22124935802%22%2C%22source%22%3A%22u010445301%22%7D&ctrtid=ZiTxt
-https://www.cnblogs.com/zz-ksw/p/12684877.html
-
+1、[史上最全ThreadLocal 详解（一）](https://blog.csdn.net/u010445301/article/details/111322569)
+2、[史上最全ThreadLocal 详解（二）](https://blog.csdn.net/u010445301/article/details/124935802?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22124935802%22%2C%22source%22%3A%22u010445301%22%7D&ctrtid=ZiTxt)
+3、[ThreadLocal的应用场景](https://www.cnblogs.com/zz-ksw/p/12684877.html)
